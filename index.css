@@ -1,0 +1,19 @@
+* {
+  font-family: "Do Hyeon", sans-serif;
+}
+.navbar-brand {
+  -right: 20px;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+}
+
+.jumbotron-fluid {
+  background-position: center;
+  background-size: cover;
+}
