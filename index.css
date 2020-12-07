@@ -7,6 +7,14 @@
 .navbar {
   position: sticky;
 }
+.navClass {
+  opacity: 0.9;
+  z-index: 10;
+}
+
+.theme-selector {
+  display: inline;
+}
 
 .container-fluid {
   padding-left: 0;
@@ -38,6 +46,7 @@
 .main-jumbo {
   background-image: url("./images/lakeTrees.jpg");
   opacity: 0.9;
+  z-index: 1;
 }
 
 .infoList {
