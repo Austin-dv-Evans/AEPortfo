@@ -4,6 +4,9 @@
 .navbar-brand {
   -right: 20px;
 }
+.navbar {
+  position: sticky;
+}
 
 .container-fluid {
   padding-left: 0;
@@ -16,4 +19,27 @@
 .jumbotron-fluid {
   background-position: center;
   background-size: cover;
+  height: 100vh;
+}
+
+.heroContainer {
+  height: 100vh;
+}
+
+.textBox {
+  margin: auto;
+  width: fit-content;
+  padding: 80px;
+  border: 3px solid black;
+  background-color: #ffffff;
+  opacity: 0.9;
+}
+
+.main-jumbo {
+  background-image: url("./images/lakeTrees.jpg");
+  opacity: 0.9;
+}
+
+.infoList {
+  list-style: none;
 }
