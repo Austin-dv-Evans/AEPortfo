@@ -1,3 +1,8 @@
+:root {
+  --mainColor: #500681;
+  --secondaryColor: #008080;
+}
+
 * {
   font-family: "Do Hyeon", sans-serif;
 }
@@ -8,13 +13,14 @@
 
 .navClass {
   z-index: 10;
+  background: var(--mainColor);
 }
 
 .theme-selector {
   color: white;
   margin: auto;
   width: fit-content;
-  border: 3px solid #500681;
+  border: 3px solid var(--mainColor);
   background-color: #000000;
   opacity: 0.9;
 }
@@ -39,15 +45,16 @@
 
 .hello {
   opacity: 1;
+  color: var(--secondaryColor);
 }
 
 .textBox {
   margin: auto;
   width: fit-content;
   padding: 130px;
-  border: 30px solid #500681;
+  border: 30px solid var(--mainColor);
   background-color: #000000;
-  color: white;
+  color: var(--secondaryColor);
   opacity: 0.9;
   margin-bottom: 20px;
 }
