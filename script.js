@@ -34,3 +34,7 @@ if(theme == null){
 }else{
     setTheme(theme)
 }
+
+$(function () {
+    $('[data-toggle="popover"]').popover()
+  })
